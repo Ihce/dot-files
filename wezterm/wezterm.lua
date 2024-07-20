@@ -19,6 +19,7 @@ end
 config.use_fancy_tab_bar= true
 config.show_new_tab_button_in_tab_bar = false
 config.colors = colors
+config.default_prog = { '/usr/bin/fish', '-l' }
 
 config.window_decorations = "INTEGRATED_BUTTONS|RESIZE"
 config.window_background_opacity = 1
