@@ -23,7 +23,7 @@ config.colors = colors
 config.window_decorations = "INTEGRATED_BUTTONS|RESIZE"
 config.window_background_opacity = 1
 config.adjust_window_size_when_changing_font_size = false
-config.font = wezterm.font('Fira Code')
+config.font = wezterm.font('Hack Nerd Font')
 config.font_size = 11
 
 config.window_close_confirmation = 'NeverPrompt'
@@ -34,7 +34,7 @@ config.window_frame = {
     -- Whatever font is selected here, it will have the
     -- main font setting appended to it to pick up any
     -- fallback fonts you may have used there.
-    font = wezterm.font { family = 'Fira Code', weight = 'Bold' },
+    font = wezterm.font { family = 'Hack Nerd Font', weight = 'Bold' },
   
     -- The size of the font in the tab bar.
     -- Default to 10.0 on Windows but 12.0 on other systems
